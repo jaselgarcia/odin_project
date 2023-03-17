@@ -1,0 +1,170 @@
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: Helvetica, sans-serif;
+}
+
+body > * {
+    padding: 50px 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li img {
+    width: 150px;
+}
+li {
+    text-align: center;
+}
+
+header,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis:content;
+}
+
+.banner {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.hero p,
+div a, 
+.action-call div {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero { 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-basis: 400px;
+}
+button {
+    width: fit-content;
+    padding: 10px;
+}
+
+.action-call button {
+    border: 1px solid #e5e7eb;
+}
+
+button,
+.action-call > div {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    border: none;
+}
+
+main {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    flex: 1
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight:800;
+    color:#1f2937;
+}
+
+main ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 100px;
+}
+
+.quote-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-section  > div {
+    flex-basis: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.attribute {
+    font-size: initial;
+    font-weight: 600;
+    text-align: right;
+}
+
+.action-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.action-call > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+.action-call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
